@@ -31,9 +31,11 @@ And you should see this:
 +------------------+--------------+------+-----+---------+----------------+
 4 rows in set (0.02 sec)
 ```
-
-As a shortcut, you can use the following statement:
-
+An alternative is to ask the database to describe the table:
+```
+mysql> DESCRIBE catalog ;
+```
+Note: even if you are not currently `USE`ing a database, you can directly refer to tables inside of a database.  For example:
 ```
 mysql> SHOW COLUMNS FROM guitars_collection.catalog;
 ```

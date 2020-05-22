@@ -32,7 +32,7 @@ mysql> USE guitars_collection;
 ```
 And source it:
 ```
-mysql> source guitars-catalog.sql
+mysql> source guitars-catalog.sql;
 ```
 
 |||info

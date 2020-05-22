@@ -165,16 +165,34 @@
   "type": "test",
   "taskId": "test-1176470184",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Creating databases",
+   "showName": true,
    "instructions": "A `mysql` prompt has been opened for you.\n\nComplete the following task:\n\n1. Create a database named: `dog_breeds`\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-1.js",
-   "points": 1
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-1.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "mysql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -189,7 +207,7 @@
    },
    "name": "Displaying scientists data",
    "instructions": "A `sql-2-7.sql` file has been created and opened for you.\n\nWrite each of the following tasks in a new line:\n\n1. Use the `famous_scientists` schema\n2. Show the existing tables\n3. Select all the records from the `scientists` table\n5. Select all the records from the `scientists` table where `year_of_birth` is greater than 1500. Sort them by `year_of_birth` in descending order.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-7.js",
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-7.js",
    "points": 1
   }
  },
@@ -197,80 +215,170 @@
   "type": "test",
   "taskId": "test-2627637445",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Creating tables",
-   "instructions": "A `mysql` prompt has been opened for you.\n\nComplete the following tasks:\n\n1. Override the `dog_breeds` database\n1. Use the `dog_breeds` database and create a `dog_catalog` table with the following features:\nColumns: \n`id`: Integer(4) not NULL and auto increment from 1\n`breed`: Varchar(255) \n`region`: Varchar(255)\nPrimary key is the `id` column\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-2.js",
-   "points": 1
+   "showName": true,
+   "instructions": "A `mysql` prompt has been opened for you.  Here are some helpful guides: [CREATE TABLE](https://www.w3schools.com/sql/sql_create_table.asp), [PRIMARY KEY]( https://www.w3schools.com/sql/sql_primarykey.asp), and [AUTO_INCREMENT](https://www.w3schools.com/sql/sql_autoincrement.asp) \n\n\nComplete the following tasks:\n\n1. `CREATE DATABASE IF NOT EXISTS dog_breeds;`\n1. Use the `dog_breeds` database and create a `dog_catalog` table with the following features:\nColumns: \n`id`: Integer(4) not NULL and auto increment from 1\n`breed`: Varchar(255) \n`region`: Varchar(255)\nPrimary key is the `id` column\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-2.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "mysql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
   "type": "test",
   "taskId": "test-2774583528",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Insert scientists data",
+   "showName": true,
    "instructions": "A `mysql` prompt has been opened for you.\n\nUsing the `famous_scientists` database:\n\n1. Insert the following data to the `scientists` table:\nValues:\n(\"Galileo Galilei\", \"Modern observational astronomy\", 1564, 1642)\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-6.js",
-   "points": 1
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-6.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "mysql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
   "type": "test",
   "taskId": "test-3260325949",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Creating the scientists table",
+   "showName": true,
    "instructions": "A `mysql` has been opened for you.\n\nUsing the `famous_scientists` database:\n\n1. Create a `scientists` table with the following features: \nColumns:\n`id`: Integer max. size of 1. Can't be null. Auto increment from 1.\n`name`: Variable length string max. size of 255 characters. Can't be null. \n`discovery`: Text. Can't be null.\n`year_of_birth`: Integer max. size of 4. Can't be null.\n`year_of_death`: Integer max. size of 4. Defaults to null.\nPrimary key is the `id` column.\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-5.js",
-   "points": 1
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-5.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "mysql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
   "type": "test",
   "taskId": "test-3787893232",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Creating the database",
+   "showName": true,
    "instructions": "A `mysql` prompt has been opened for you.\n\nComplete the following tasks:\n\n1. Create a `famous_scientists` database\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-4.js",
-   "points": 1
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-4.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "mysql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
   "type": "test",
   "taskId": "test-53629972",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Inserting data",
+   "showName": true,
    "instructions": "A `mysql` prompt has been opened for you.\n\nUsing the `dog_breeds` database, complete the following tasks:\n\n1. Insert into the `dog_catalog` table:\nColumns: _breed_, _region_\nValues:\n\"English Sheepdog\", \"England\"\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests.js/sql-2-3.js",
-   "points": 1
+   "command": "node --no-warnings .guides/sqltests.js/sql-2-3.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "mysql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

@@ -34,6 +34,7 @@ mysql> CREATE TABLE catalog (
     -> PRIMARY KEY (id)
     -> ) AUTO_INCREMENT=1;
 ```
+While you can do this, it makes a million times more sense to edit a file, source it, and if you made a mistake, fix the file.  If you type in long statements and queries into the mysql command line, and you make a mistake, you have to type everything again.  Except for simple queries, get in the habit of putting your queries into a file that you source.
 
 |||
 

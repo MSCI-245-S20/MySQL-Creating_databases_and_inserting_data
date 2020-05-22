@@ -1,3 +1,5 @@
+We now switch back to our work on the guitars_collection database, which we last created a `catalog` table in.
+
 Now that our `catalog` table has been created, it's time to `INSERT` some data into it.
 
 As part of the SQL _data manipulation language_ (DML), the `INSERT` SQL keyword represents the __CREATE__ word of the _CRUD_ acronym.

@@ -2,7 +2,7 @@
 ### Reset challenge database
 If you make a mistake while editing the database in this section or just want to reset the database back to its original state, return to this page and click the “Reset Section Database” button below.
 
-{Reset Challenge Database}(node .guides/sqltests.js/fw-sql-reset-dog-breeds.js)
+{Reset Challenge Database}(node --no-warnings .guides/sqltests.js/fw-sql-reset-dog-breeds.js)
 |||
 ---
 

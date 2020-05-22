@@ -2,7 +2,7 @@
 ### Reset section database
 If you make a mistake while editing the database in this section or just want to reset the database back to its original state, return to this page and click the “Reset Section Database” button below.
 
-{Reset Section Database}(node .guides/sqltests.js/fw-sql-reset-guitar-collection.js)
+{Reset Section Database}(node --no-warnings .guides/sqltests.js/fw-sql-reset-guitar-collection.js)
 |||
 ---
 
