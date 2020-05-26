@@ -10,7 +10,8 @@
    "content-file": ".guides/content/Recap-a02b.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "ea4e1b9-93f4-4b51-ab82-529422c7723a",
@@ -22,7 +23,8 @@
    "content-file": ".guides/content/What-we-ll-learn-ea4e.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "b515a10e-39d5-43d5-736f-65bbcdc5047",
@@ -39,7 +41,8 @@
    "content-file": ".guides/content/Resetting-the-unit-s-databases-b515.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "cb92987f-7893-2b1e-dc10-fabc61528237",
@@ -51,7 +54,8 @@
    "content-file": ".guides/content/CRUD-cb92.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "2e02803f-61ba-fd34-1f3a-8c952e9d1c23",
@@ -62,7 +66,8 @@
    "content-file": ".guides/content/Challenge-2e02.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "d873933a-5a78-d811-9631-2a7f25e4aba9",
@@ -80,7 +85,8 @@
    "content-file": ".guides/content/Creating-SQL-databases-d873.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "f1ec7bdf-7660-3f54-4ea9-140a6df0e2a3",
@@ -97,7 +103,8 @@
    "content-file": ".guides/content/DDL---DML-f1ec.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "4a754149-17da-eda2-6e2b-59da55fbac92",
@@ -108,7 +115,8 @@
    "content-file": ".guides/content/Challenge-4a75.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
@@ -130,23 +138,14 @@
    "content-file": ".guides/content/DB-creation-control-2a17.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "edf3d2e0-1db6-c238-cc3c-5f36e564329",
    "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [
     "sql-2-1"
    ],
@@ -154,7 +153,8 @@
    "content-file": ".guides/content/Challenge-edf3.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "ac0ff61-5104-ebf3-eab3-bd373c8709",
@@ -171,7 +171,8 @@
    "content-file": ".guides/content/Basic-SQL-datatypes-ac0f.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "4592eb06-b3b7-834a-d73d-4e54db4feb7e",
@@ -182,7 +183,8 @@
    "content-file": ".guides/content/Datatypes-4592.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "da53f85-ace7-86bb-35eb-920bd18f4d9f",
@@ -193,7 +195,8 @@
    "content-file": ".guides/content/Challenge-da53.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "1a8b8572-8a49-8614-3aa3-e8edf3f79e36",
@@ -205,7 +208,8 @@
    "content-file": ".guides/content/Creating-tables-1a8b.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "ab958375-a97a-5296-af14-c950908aeae",
@@ -234,7 +238,8 @@
    "content-file": ".guides/content/Creating-tables-ab95.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "15ff6a29-d9ab-66ae-eea6-b936cd2316b",
@@ -245,8 +250,8 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql",
-     "panel": 0,
+     "path": "#terminal: ",
+     "panel": null,
      "action": "open"
     }
    ],
@@ -256,7 +261,8 @@
    "content-file": ".guides/content/Multi-line-statements-15ff.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "1c47a236-7efb-5e7a-175b-518c6bd149c",
@@ -268,7 +274,8 @@
    "content-file": ".guides/content/Column-information-1c47.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "29829c77-d08d-55a1-a8e-74934c117560",
@@ -287,7 +294,8 @@
    "content-file": ".guides/content/Creating-tables-2982.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "ae6e483d-e833-cbc9-c63f-a122bf26b2a8",
@@ -311,7 +319,8 @@
    "content-file": ".guides/content/Challenge-ae6e.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "2d86659c-5d8e-22f8-f04d-58b49774e43f",
@@ -328,7 +337,8 @@
    "content-file": ".guides/content/SQL-constraints-2d86.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "6c036059-d9f5-bfc7-d78-ce535d5eb27",
@@ -339,7 +349,8 @@
    "content-file": ".guides/content/Challenge-6c03.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "5d40a3b5-ef6d-dbdf-b5b0-6e1d70729b47",
@@ -368,7 +379,8 @@
    "content-file": ".guides/content/Inserting-values-5d40.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
@@ -385,7 +397,8 @@
    "content-file": ".guides/content/Auto-increment-a292.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "f1bdcd92-833d-4ac4-dc53-723b73f77d8f",
@@ -414,7 +427,8 @@
    "content-file": ".guides/content/Inserting-more-values-f1bd.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
@@ -425,8 +439,8 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql",
-     "panel": 0,
+     "path": "#terminal: ",
+     "panel": null,
      "action": "open"
     }
    ],
@@ -438,7 +452,8 @@
    "content-file": ".guides/content/Challenge-35b6.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
@@ -449,8 +464,8 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql",
-     "panel": 0,
+     "path": "#terminal: ",
+     "panel": null,
      "action": "open"
     }
    ],
@@ -462,7 +477,8 @@
    "content-file": ".guides/content/Final-challenges-2162.md",
    "chapter": true,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "f037543-b8eb-d73c-16a7-a0f947395cc7",
@@ -476,7 +492,8 @@
    "content-file": ".guides/content/Challenge-f037.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "e4af54d7-7d4c-b5ff-100a-d25e1ccda7f6",
@@ -490,7 +507,8 @@
    "content-file": ".guides/content/Challenge-e4af.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   },
   {
    "id": "d481be6a-802-313f-6546-b5a0e69cf0ff",
@@ -507,10 +525,20 @@
    "content-file": ".guides/content/That-s-all-folks-d481.md",
    "chapter": false,
    "reset": [],
-   "teacherOnly": false
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",
  "scripts": [],
- "lexikonTopic": ""
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
 }
